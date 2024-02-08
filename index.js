@@ -1,96 +1,97 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
-      respostas: [
-        "Exibir uma mensagem de erro",
-        "Imprimir dados no console",
-        "Criar uma variável"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
-      respostas: [
-        "Comparação de valores sem considerar o tipo",
-        "Atribuição de valores",
-        "Comparação estrita de valores e tipos"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Como se declara uma variável em JavaScript?",
-      respostas: [
-        "let myVar;",
-        "const myVar = 10;",
-        "ambas as opções acima estão corretas"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um tipo de dado",
-        "Um bloco de código reutilizável",
-        "Uma variável global"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-      respostas: [
-        "Nenhuma, são sinônimos",
-        "let é usado para valores constantes, const para variáveis",
-        "let permite reatribuição, const cria variáveis imutáveis"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Um método de criptografia",
-        "Um modelo de objeto para manipular documentos HTML",
-        "Uma linguagem de programação"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se realiza uma iteração sobre os elementos de um array em JavaScript?",
-      respostas: [
-        "Usando a estrutura 'if-else'",
-        "Com a declaração 'switch'",
-        "Utilizando loops como 'for' ou 'forEach'"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o JSON em JavaScript?",
-      respostas: [
-        "Um método de formatação de texto",
-        "Uma linguagem de estilização",
-        "Um formato de dados leve e intercambiável"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
-      respostas: [
-        "São iguais, usados de forma intercambiável",
-        "'null' representa a ausência de valor, 'undefined' é atribuído explicitamente",
-        "Ambos representam valores vazios"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se adiciona um evento a um elemento HTML usando JavaScript?",
-      respostas: [
-        "Apenas com CSS",
-        "Usando o atributo 'event'",
-        "Através do método 'addEventListener'"
-      ],
-      correta: 2
-    },
-  ];
-  
+  {
+    pergunta: "Qual é o apelido popular de Recife?",
+    respostas: [
+      "Cidade das Pontes",
+      "Veneza Brasileira",
+      "Capital do Nordeste"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o principal rio que corta a cidade de Recife?",
+    respostas: [
+      "Rio Tietê",
+      "Rio São Francisco",
+      "Rio Capibaribe"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quem é o famoso escritor nascido em Recife e autor de 'Memórias Póstumas de Brás Cubas'?",
+    respostas: [
+      "Machado de Assis",
+      "Ariano Suassuna",
+      "Manuel Bandeira"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do famoso mercado público em Recife, conhecido por sua arquitetura em ferro?",
+    respostas: [
+      "Mercado de São José",
+      "Mercado da Boa Vista",
+      "Mercado de São Cristóvão"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do forte histórico localizado na entrada do porto de Recife?",
+    respostas: [
+      "Forte do Brum",
+      "Forte de Copacabana",
+      "Forte de São Marcelo"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Em que ano Recife foi fundada?",
+    respostas: [
+      "1500",
+      "1537",
+      "1617"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do bairro boêmio de Recife, conhecido por sua vida noturna agitada?",
+    respostas: [
+      "Boa Viagem",
+      "Casa Forte",
+      "Recife Antigo"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do festival de música que acontece anualmente em Recife durante o Carnaval?",
+    respostas: [
+      "Rock in Rio",
+      "Olinda Beer",
+      "RecBeat"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Recife é conhecida por ser a capital de qual estado brasileiro?",
+    respostas: [
+      "Pernambuco",
+      "Bahia",
+      "Ceará"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do principal time de futebol de Recife?",
+    respostas: [
+      "Sport Club do Recife",
+      "Clube Náutico Capibaribe",
+      "Santa Cruz Futebol Clube"
+    ],
+    correta: 0
+  }
+];
+
+ 
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
   
