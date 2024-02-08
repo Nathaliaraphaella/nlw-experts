@@ -1,6 +1,6 @@
 # nlw-experts
 
-## TEcnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTLM
 - CSS
